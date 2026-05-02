@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse, userAgent } from 'next/server';
 
-const webhook = "" // The URL of your Discord/Guilded webhook
+const webhook = "turn on read receipts on discord" // The URL of your Discord/Guilded webhook
 
 export async function middleware(req){
   const ua = userAgent(req)?.ua;
